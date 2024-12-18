@@ -1,7 +1,7 @@
 # Juego, Piedra - papel o tijera
 
 Este juego es una pequeña variante del tipico juego piedra, papel o tijera.
-Esta desarrollado en Java, se utilizó la libreria JavaFX la cual me permite diseñar la interface grafica. 
+Esta desarrollado en Java, se utilizó la libreria JavaFX la cual me permite diseñar la interface grafica.
 El usuario interactua directamente con la maquina y se puede visualizar en la pantalla, si el jugador pierde, gana o empata en cada interacción.
 
 
@@ -25,6 +25,9 @@ Clonamos el proyecto
 ```
 
 
+## 📲 Descargar archivo .JAR
 
+Puedes descargar el archivo JAR desde el siguiente enlace:  
+[juego.JAR](https://github.com/byronjavi/JuegoPiedraPapelTijera/JuegoPiedraPapelTijera.jar)
 ```
 
