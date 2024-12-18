@@ -1,4 +1,3 @@
-
 # Juego, Piedra - papel o tijera
 
 Este juego es una pequeña variante del tipico juego piedra, papel o tijera.
@@ -26,9 +25,6 @@ Clonamos el proyecto
 ```
 
 
-Archivo JAR del proyecto realizado en JAVA
 
-```bash
-  https://drive.google.com/file/d/1D55N4K9TvLWnwtaw2sWKtQ1FVSH3REb-/view?usp=sharing
 ```
 
