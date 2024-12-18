@@ -25,7 +25,7 @@ Clonamos el proyecto
 ```
 
 
-## 📲 Descargar el APK
+## 📲 Piedra_Papel_Tijera.JAR
 
 Puedes descargar el archivo JAR desde el siguiente enlace:  
 [Descargar APK](https://drive.google.com/file/d/1D55N4K9TvLWnwtaw2sWKtQ1FVSH3REb-/view?usp=sharing)
