@@ -28,6 +28,6 @@ Clonamos el proyecto
 ## 📲 Descargar archivo .JAR
 
 Puedes descargar el archivo JAR desde el siguiente enlace:  
-[juego.JAR](https://github.com/byronjavi/JuegoPiedraPapelTijera/JuegoPiedraPapelTijera.jar)
+[juego.JAR](https://github.com/byronjavi/JuegoPiedraPapelTijera/blob/master/JuegoPiedraPapelTijera.jar)
 ```
 
