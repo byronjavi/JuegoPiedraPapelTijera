@@ -1,7 +1,7 @@
 # Juego, Piedra - papel o tijera
 
 Este juego es una pequeña variante del tipico juego piedra, papel o tijera.
-Esta desarrollado en Java, se utilizó la libreria JavaFX la cual me permite diseñar la interface grafica.
+Esta desarrollado en Java, se utilizó la libreria JavaFX la cual me permite diseñar la interfaz grafica.
 El usuario interactua directamente con la maquina y se puede visualizar en la pantalla, si el jugador pierde, gana o empata en cada interacción.
 
 
@@ -9,7 +9,7 @@ El usuario interactua directamente con la maquina y se puede visualizar en la pa
 
 ## Licencia
 
-Este programa fue desarrollado en JAVA utilizando la interface JAVAFX
+Este programa fue desarrollado en JAVA utilizando la interfaz JAVAFX
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
