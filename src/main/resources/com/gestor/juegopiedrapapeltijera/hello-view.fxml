@@ -1,16 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.gestor.juegopiedrapapeltijera.HelloController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-  </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-  <Label fx:id="welcomeText"/>
-  <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="501.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gestor.juegopiedrapapeltijera.clases.ControllerBotones">
+   <children>
+      <Button fx:id="btnPiedra" layoutX="305.0" layoutY="238.0" mnemonicParsing="false" onAction="#mostrarPiedra" prefHeight="48.0" prefWidth="105.0" text="Piedra">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="btnPapel" layoutX="305.0" layoutY="295.0" mnemonicParsing="false" onAction="#mostrarPapel" prefHeight="48.0" prefWidth="105.0" text="Papel">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="btnTijera" layoutX="305.0" layoutY="352.0" mnemonicParsing="false" onAction="#mostrarTijera" prefHeight="48.0" prefWidth="105.0" text="Tijera">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <ImageView fx:id="imgYo" fitHeight="240.0" fitWidth="223.0" layoutX="43.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../papel.png" />
+         </image></ImageView>
+      <ImageView fx:id="imgMaquina" fitHeight="240.0" fitWidth="251.0" layoutX="474.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../piedra.png" />
+         </image></ImageView>
+      <Label fx:id="lblYo" layoutX="140.0" layoutY="40.0" text="YO">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblMaquina" layoutX="558.0" layoutY="40.0" text="MAQUINA">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblResultado" alignment="CENTER" contentDisplay="CENTER" layoutX="305.0" layoutY="177.0" prefHeight="37.0" prefWidth="105.0" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="114.0" fitWidth="105.0" layoutX="98.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../usuario.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="92.0" fitWidth="93.0" layoutX="548.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../robot.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="43.0" layoutY="438.0" text="Puntuación:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="474.0" layoutY="438.0" text="Puntuación:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtContadorYo" alignment="CENTER" editable="false" layoutX="159.0" layoutY="439.0" prefHeight="25.0" prefWidth="87.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtContadorMaquina" alignment="CENTER" editable="false" layoutX="584.0" layoutY="439.0" prefHeight="25.0" prefWidth="87.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</Pane>

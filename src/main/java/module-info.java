@@ -5,6 +5,8 @@ module com.gestor.juegopiedrapapeltijera {
     requires org.controlsfx.controls;
     requires com.dlsc.formsfx;
 
-    opens com.gestor.juegopiedrapapeltijera to javafx.fxml;
     exports com.gestor.juegopiedrapapeltijera;
+    opens com.gestor.juegopiedrapapeltijera to javafx.fxml;
+    exports com.gestor.juegopiedrapapeltijera.clases;
+    opens com.gestor.juegopiedrapapeltijera.clases to javafx.fxml;
 }

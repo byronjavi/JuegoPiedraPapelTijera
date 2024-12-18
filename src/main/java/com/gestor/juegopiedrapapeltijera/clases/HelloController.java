@@ -1,4 +1,4 @@
-package com.gestor.juegopiedrapapeltijera;
+package com.gestor.juegopiedrapapeltijera.clases;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
